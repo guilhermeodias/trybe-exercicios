@@ -28,23 +28,40 @@
   }
 
 
-  Copiar
 .super-mario {
-  width: 200px;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    left: 80px;
 }
 
 .goomba {
   width: 100px;
+  left: 140px;
+  top: 550px;
+  position: absolute;
+  z-index: 2;
 }
 
 .baloon {
-
+    position: absolute;
+    z-index: 3;
+    left: 320px;
+    top: 430px;
 }
 
 .speach {
   font-size: 25px;
+  position: absolute;
+  z-index: 4;
+  left: 340px;
+  top: 470px;
 }
 
 .bowser {
   width: 200px;
+  top: 570px;
+  left: 620px;
+  position: absolute;
+  z-index: 5;
 }
